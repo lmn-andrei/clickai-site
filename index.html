@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>clickai.ro — Știri AI</title>
+  <meta name="description" content="Știri din inteligența artificială, în română. Modele, robotică, cercetare și industrie." />
+  <link rel="canonical" href="https://clickai.ro/" />
+  <meta property="og:title" content="clickai.ro — Știri AI" />
+  <meta property="og:description" content="Știri din inteligența artificială, în română." />
+  <meta property="og:image" content="og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#14171C" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+</head>
+<body>
+  <header>
+    <div class="console">
+      <div class="console-inner">
+        <a class="wordmark" href="index.html">
+          <svg class="mark" viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="11" width="2.6" height="4" fill="currentColor" opacity=".55"/><rect x="5" y="8" width="2.6" height="7" fill="currentColor" opacity=".75"/><rect x="9" y="4.5" width="2.6" height="10.5" fill="currentColor" opacity=".9"/><rect x="13" y="1" width="2.6" height="14" fill="currentColor"/></svg>
+          click<span>ai</span>.ro
+        </a>
+        <p class="status"><span class="pulse"></span> știri din inteligența artificială</p>
+      </div>
+    </div>
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html" class="activ">Flux</a>
+        <a href="surse.html">Surse</a>
+        <a href="despre.html">Despre</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="feed">
+    <h1>Știri AI</h1>
+    <p class="lede">Flux scurt, în română, doar despre inteligență artificială. Modele, agenți, robotică, cercetare și industrie.</p>
+
+    <div class="filters" role="toolbar" aria-label="Filtrează după categorie">
+      <button type="button" class="chip activ" data-filter="toate">Toate</button>
+      <button type="button" class="chip" data-filter="modele">Modele</button>
+      <button type="button" class="chip" data-filter="agenti">Agenți</button>
+      <button type="button" class="chip" data-filter="robotica">Robotică</button>
+      <button type="button" class="chip" data-filter="cercetare">Cercetare</button>
+      <button type="button" class="chip" data-filter="industrie">Industrie</button>
+    </div>
+    <p class="empty">Nicio știre în categoria asta, în fluxul afișat.</p>
+
+    <h2 class="day">24 august 2026</h2>
+
+    <article class="entry" data-category="agenti">
+      <time class="entry-time" datetime="2026-08-24T17:50:00+03:00">24 aug<br>17:50</time>
+      <div class="entry-body">
+        <p class="tag">[AGENȚI]</p>
+        <h2><a href="stiri/starlink-grok-voice.html">Starlink folosește Grok Voice pentru peste 15.000 de apeluri pe zi</a></h2>
+        <p>Serviciul de asistență Starlink rulează un agent vocal Grok la scară operațională. Compania spune că majoritatea apelurilor se închid fără operator uman.</p>
+        <p class="source-line">xAI / Starlink</p>
+      </div>
+    </article>
+
+    <article class="entry" data-category="cercetare">
+      <time class="entry-time" datetime="2026-08-24T08:15:00+03:00">24 aug<br>08:15</time>
+      <div class="entry-body">
+        <p class="tag">[CERCETARE]</p>
+        <h2><a href="stiri/arxiv-transfer-cunostinte.html">Pe arXiv, un nou val de lucrări atacă distilarea și transferul între modele</a></h2>
+        <p>Feedurile cs.LG și cs.AI au publicat, în ultimele zile, mai multe preprinturi despre distilare, transfer de reprezentări și evaluare a cunoștințelor mutate dintr-un model în altul.</p>
+        <p class="source-line">arXiv cs.LG / cs.AI</p>
+      </div>
+    </article>
+
+    <h2 class="day">21 august 2026</h2>
+
+    <article class="entry" data-category="modele">
+      <time class="entry-time" datetime="2026-08-21T11:40:00+03:00">21 aug<br>11:40</time>
+      <div class="entry-body">
+        <p class="tag">[MODELE]</p>
+        <h2><a href="stiri/grok-4-6-gemini-enterprise.html">Grok 4.6 ajunge pe platforma de agenți Gemini Enterprise</a></h2>
+        <p>xAI a anunțat disponibilitatea lui Grok 4.6 într-un mediu de agenți operat de Google, la nouă zile după lansarea modelului.</p>
+        <p class="source-line">xAI News</p>
+      </div>
+    </article>
+
+    <h2 class="day">19 august 2026</h2>
+
+    <article class="entry" data-category="modele">
+      <time class="entry-time" datetime="2026-08-19T16:05:00+03:00">19 aug<br>16:05</time>
+      <div class="entry-body">
+        <p class="tag">[MODELE]</p>
+        <h2><a href="stiri/grok-4-6-bedrock.html">Amazon Bedrock listează Grok 4.6</a></h2>
+        <p>La o săptămână de la lansare, modelul xAI este disponibil prin Bedrock, alături de API-ul propriu, Cursor și Grok Build.</p>
+        <p class="source-line">xAI News</p>
+      </div>
+    </article>
+
+    <article class="entry" data-category="industrie">
+      <time class="entry-time" datetime="2026-08-19T10:20:00+03:00">19 aug<br>10:20</time>
+      <div class="entry-body">
+        <p class="tag">[INDUSTRIE]</p>
+        <h2><a href="stiri/grok-build-web-mobil.html">Grok Build iese pe web și pe mobil</a></h2>
+        <p>Mediul de construire de aplicații anunțat odată cu Grok 4.6 primește clienți web și mobili, nu doar fluxul din editor.</p>
+        <p class="source-line">xAI News</p>
+      </div>
+    </article>
+
+    <h2 class="day">13 august 2026</h2>
+
+    <article class="entry" data-category="modele">
+      <time class="entry-time" datetime="2026-08-13T08:22:00+03:00">13 aug<br>08:22</time>
+      <div class="entry-body">
+        <p class="tag">[MODELE]</p>
+        <h2><a href="stiri/deepseek-v4-pro.html">DeepSeek publică V4-Pro, o variantă deschisă a modelului de frontieră</a></h2>
+        <p>Laboratorul chinez a listat DeepSeek-V4-Pro-0813 ca model open-source, în același interval în care Google și xAI au scos actualizări de produs.</p>
+        <p class="source-line">DeepSeek</p>
+      </div>
+    </article>
+
+    <h2 class="day">12 august 2026</h2>
+
+    <article class="entry" data-category="modele">
+      <time class="entry-time" datetime="2026-08-12T18:40:00+03:00">12 aug<br>18:40</time>
+      <div class="entry-body">
+        <p class="tag">[MODELE]</p>
+        <h2><a href="stiri/gemini-3-7-flash.html">Google lansează Gemini 3.7 Flash, un model ușor pentru latență mică</a></h2>
+        <p>DeepMind a adăugat Gemini 3.7 Flash în familia 3.x. Este o actualizare de produs, nu un model de generație nouă.</p>
+        <p class="source-line">Google DeepMind</p>
+      </div>
+    </article>
+
+    <article class="entry" data-category="modele">
+      <time class="entry-time" datetime="2026-08-12T16:10:00+03:00">12 aug<br>16:10</time>
+      <div class="entry-body">
+        <p class="tag">[MODELE]</p>
+        <h2><a href="stiri/grok-4-6.html">xAI lansează Grok 4.6, construit pentru agenți care rămân pe sarcină</a></h2>
+        <p>Modelul este o actualizare de post-antrenare pe fundația V9, cu fereastră de 500.000 de tokeni și un nivel nou de raționament, „xhigh”.</p>
+        <p class="source-line">xAI News</p>
+      </div>
+    </article>
+
+    <h2 class="day">1 august 2026</h2>
+
+    <article class="entry" data-category="robotica">
+      <time class="entry-time" datetime="2026-08-01T11:05:00+03:00">1 aug<br>11:05</time>
+      <div class="entry-body">
+        <p class="tag">[ROBOTICĂ]</p>
+        <h2><a href="stiri/gemini-robotics-er-2.html">DeepMind anunță Gemini Robotics ER 2, cu înțelegere video și coordonare multi-robot</a></h2>
+        <p>Noua versiune pune accent pe orchestrarea sarcinilor și pe colaborarea între roboți, nu pe un model de limbaj de uz general.</p>
+        <p class="source-line">Google DeepMind</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>clickai.ro · știri AI, în română</p>
+    <p><a href="despre.html">despre</a> · <a href="surse.html">surse</a></p>
+  </footer>
+  <script src="js/filters.js"></script>
+</body>
+</html>

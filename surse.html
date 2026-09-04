@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Surse — clickai.ro</title>
+  <meta name="description" content="Sursele publice din care clickai.ro citește știri AI." />
+  <link rel="canonical" href="https://clickai.ro/surse" />
+  <meta property="og:title" content="Surse — clickai.ro" />
+  <meta property="og:description" content="Sursele publice din care clickai.ro citește știri AI." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#14171C" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+</head>
+<body>
+  <header>
+    <div class="console">
+      <div class="console-inner">
+        <a class="wordmark" href="index.html">
+          <svg class="mark" viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="11" width="2.6" height="4" fill="currentColor" opacity=".55"/><rect x="5" y="8" width="2.6" height="7" fill="currentColor" opacity=".75"/><rect x="9" y="4.5" width="2.6" height="10.5" fill="currentColor" opacity=".9"/><rect x="13" y="1" width="2.6" height="14" fill="currentColor"/></svg>
+          click<span>ai</span>.ro
+        </a>
+        <p class="status"><span class="pulse"></span> știri din inteligența artificială</p>
+      </div>
+    </div>
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html">Flux</a>
+        <a href="surse.html" class="activ">Surse</a>
+        <a href="despre.html">Despre</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <p class="tag">[SURSE]</p>
+    <h1>De unde citim</h1>
+    <p>Colectarea pornește din fluxuri RSS publice ale laboratoarelor, ale arXiv și ale presei de industrie. Un articol apare în flux doar dacă informația e un anunț sau un rezultat public, nu o lectură de semnal.</p>
+
+    <ul class="feeds">
+      <li>
+        <a href="https://openai.com/blog/rss.xml">OpenAI Blog</a>
+        <p>anunțuri de produs și cercetare</p>
+        <p class="feed-url">openai.com/blog/rss.xml</p>
+      </li>
+      <li>
+        <a href="https://huggingface.co/blog/feed.xml">Hugging Face Blog</a>
+        <p>modele deschise, unelte, distilare</p>
+        <p class="feed-url">huggingface.co/blog/feed.xml</p>
+      </li>
+      <li>
+        <a href="https://arxiv.org/rss/cs.CL">arXiv cs.CL</a>
+        <p>preprinturi de limbaj</p>
+        <p class="feed-url">arxiv.org/rss/cs.CL</p>
+      </li>
+      <li>
+        <a href="https://arxiv.org/rss/cs.AI">arXiv cs.AI</a>
+        <p>preprinturi de inteligență artificială</p>
+        <p class="feed-url">arxiv.org/rss/cs.AI</p>
+      </li>
+      <li>
+        <a href="https://arxiv.org/rss/cs.LG">arXiv cs.LG</a>
+        <p>preprinturi de învățare automată</p>
+        <p class="feed-url">arxiv.org/rss/cs.LG</p>
+      </li>
+      <li>
+        <a href="https://venturebeat.com/category/ai/feed/">VentureBeat AI</a>
+        <p>industrie, capital, lansări</p>
+        <p class="feed-url">venturebeat.com/category/ai/feed/</p>
+      </li>
+    </ul>
+
+    <h2>Lista va crește</h2>
+    <p>La lansarea automată, sursele se extind cu blogurile de laborator (Google DeepMind, Anthropic, xAI, Meta AI, DeepSeek) și cu notele de produs din cloud. Fiecare articol păstrează linkul către original.</p>
+  </main>
+
+  <footer>
+    <p>clickai.ro · știri AI, în română</p>
+    <p><a href="despre.html">despre</a> · <a href="surse.html">surse</a></p>
+  </footer>
+</body>
+</html>
